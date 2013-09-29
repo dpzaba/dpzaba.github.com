@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /index.html
 Disallow: /img/
-Disallow: /index_files/
+Disallow: /css/
+Disallow: /js/
+Disallow: /font/
