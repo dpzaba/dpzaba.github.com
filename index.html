@@ -1,234 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-      <title>David Antonio Pérez Zaba</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="David Antonio Pérez Zaba">
+    <meta http-equiv="content-type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="David Antonio Pérez Zaba">
     <meta name="author" content="David Antonio Pérez Zaba, dpzaba">
 
-    <link href="index_files/bootstrap.css" rel="stylesheet">
-		
-    <style type="text/css">
-  
-    body {
-    padding-top: 60px;
-    padding-bottom: 40px;
-    }
+    <title>David Antonio Pérez Zaba</title>
 
-    #myCanvas{
-    border:0px solid #c3c3c3;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
+    <link href="index_files/bootstrap.min.css" rel="stylesheet">
+    <link href="index_files/index.css" rel="stylesheet">
+    <link href="index_files/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="index_files/font-awesome.min.css" rel="stylesheet">
 
-    .me{
-    float:right; 
-    margin-left:100px;
-    margin-bottom:20px;
-    margin-top:-20px;
-    }
-
-    /* footer */
-
-    footer {
-    margin-top: 25px;
-    padding-top: 5px;
-    color: #999;
-    margin-left: 10px;
-    margin-right: 10px;
-    }
-
-    footer a {
-    color: #555;
-    }
-
-    footer small{
-    float:right;
-    }
-
-
-    footer a:hover { 
-    color: #222;
-    }
-
-    #david {
-    float: left;
-    margin-right: 20px;
-    font-size: 1.7em;
-    color: #fff;
-    letter-spacing: -0.2px;
-    padding-top: 10px;
-    font-weight: bold;
-    line-height: 1;
-    }
-
-    </style>
-
-    <link href="index_files/bootstrap-responsive.css" rel="stylesheet">
-
-    <!--[if lt IE 9]>
-	   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	   <![endif]-->
-
-    <script type="text/javascript">
-      function my_photo(){
-        var c=document.getElementById("myCanvas");
-        var ctx=c.getContext("2d");
-        var img=new Image();
-        img.onload = function(){
-          ctx.drawImage(img,0,0);
-        };
-        var part1="img/w";
-        var part2="eb.p";
-        var part3="ng";
-        img.src=part1+part2+part3;
-      }
-
-      function my_email(){
-        var email1="dpzaba"
-        var email2="@"
-        var email3="gmail."+"com"
-        var contact=document.getElementById("contact");
-        contact.href="mailto:" + email1+email2+email3
-        contact.innerText="Email: " + email1+email2+email3
-      }
-
-    </script>
-
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
 
 
   <body>
-      <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-	    <div class="row">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+	<div class="container">
+	  <div class="row">
 	    <div class="span8 offset2">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="./index.html" id="david">
-            David Antonio Pérez Zaba
-            </a>
+	      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	      </a>
+    
+	      <a class="brand" href="./index.html" id="david">
+		David Antonio Pérez Zaba
+	      </a>
 
-            <div class="nav-collapse">
-              <ul class="nav">
-                <li><a id="contact" href="#">Email: dpzaba at gmail dot com</a></li>
-  	           <li><a href="http://es.linkedin.com/in/dpzaba" target="_blank">Me at Linkedin</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-
-  	       </div>
+	      <div class="nav-collapse">
+		<ul class="nav">
+		  <li>
+		    <a id="contact" href="#">
+		      Email: dpzaba at gmail dot com
+		    </a>
+		  </li>
+		  <li>
+		    <a href="http://es.linkedin.com/in/dpzaba" target="_blank">
+		      Me at Linkedin
+		    </a>
+		  </li>
+		</ul>
+	      </div><!--/.nav-collapse -->
+	    </div>
           </div>
-	  </div>
-        </div>
-      </div><!--nav -->
+	</div>
+      </div>
+    </div><!--nav -->
 
-      <div class="container">
-
-        <div class="row">
-          	<div class="span8 offset2">
-          	  <div class="hero-unit">
-          	    <div class="me">
-          	      <canvas id="myCanvas" width="160" height="180">
-		            You can't see me if your browser does not support the canvas element.
-          	      </canvas>
-  	      
-  	      <script type="text/javascript">
-  		      window.onload=my_photo
-  	      </script>
-  	      
-  	    </div>
+    <div class="container">
+      <div class="row">
+	<div class="span8 offset2">
+	  <div class="hero-unit">
+	    <div class="me">
+	      <canvas id="myCanvas" width="160" height="180">
+		You can't see me if your browser does not support the canvas element.
+	      </canvas>
+	    </div>
 
   	    <h1>David <br/> Pérez Zaba</h1>
   	    <br />
   	    <h3>Hello everyone and Welcome!!</h3>
 
   	    <br>
-        <div>
-              <p>
-  	      I was born in <a href="https://en.wikipedia.org/wiki/Toledo,_Spain" target="_blank">Toledo</a> (Spain), one of the most beautiful cities in the world :) <br/>
-  	      I studied <strong>MS in Computer Science</strong> in Spain (2007-2012) and I've worked in a R&amp;D (Research and Development) <a href="http://alarcos.inf-cr.uclm.es/defaultEng.aspx" target="_blank">department</a> of the University of Castilla La Mancha.</p>
-  	    </div>
-          <noscript>
-  	       Download
-  	       <a href="http://www.getfirefox.com" target="_blank">Firefox</a> 
-  	       to see fine this website
-  	      </noscript>
-  	   </div>
-  	 </div>
-         </div>
+	      <div>
+		<p>
+		  I was born in <a href="https://en.wikipedia.org/wiki/Toledo,_Spain" target="_blank">Toledo</a> (Spain), one of the most beautiful cities in the world :) <br/>
+		I studied <strong>MS in Computer Science</strong> in Spain (2007-2012) and I've worked in a R&amp;D (Research and Development) <a href="http://alarcos.inf-cr.uclm.es/defaultEng.aspx" target="_blank">department</a> of the University of Castilla La Mancha.</p>
+	      </div>
 
+	      <noscript>
+		Download
+		<a href="http://www.getfirefox.com" target="_blank">Firefox</a> 
+		to see fine this website
+  	      </noscript>
+	    </div>
+	  </div>
+	</div>
 
         
   	<div class="row">
   	  <div class="span4 offset2">
-  	  <div class="well">
-  	    <h2>Interests and skills</h2>
-  	    <ul>
+	    <div class="well">
+	      <h2>Interests and skills</h2>
+	      <ul>
+		<li>Software Engineering (Ruby, Python, JS ...) </li>
+		<li>Information security and privacy</li>
+		<li>Usability (UX, HCI)</li>
+		<li>Networking, robotics and Arduino</li>
+		<li>FLOSS and GNU/Linux</li>
+		<li>Innovation and quality product</li>
+		<li>Data analysis and economics</li>
+		<li><strong>Things well done</strong>, friends and music</li>
+	      </ul>
+	    </div>
+	  </div>
+	  
+	  <div class="span4">
+	    <div class="well">
+	      <h2>Projects and collaborations</h2>
+	      <ul class="icons-inline">
+		<li>
+		  <a href="http://bitbucket.org/dpzaba" target="_blank">
+		    <i class="icon-bitbucket-sign icon-4x"></i>
+		    <p>Bitbucket</p>		    
+		  </a>
+		</li>
 
-          <li>Software Engineering (Ruby, Python, JS ...) </li>
-  	      <li>Information security and privacy</li>
-	      <li>Usability (UX, HCI)</li>
-	      <li>Networking, robotics and Arduino</li>
+		<li>
+		  <a href="http://github.com/dpzaba" target="_blank">
+		    <i class="icon-github-sign icon-4x"></i>
+		    <p>Github</p>
+		  </a>
+		</li>
 
-  	      <li>FLOSS and GNU/Linux</li>
+		<li>
+		  <a href="http://es.linkedin.com/in/dpzaba" target="_blank">
+		    <i class="icon-linkedin-sign icon-4x"></i>
+		    <p>Linkedin</p>
+		  </a>
+		</li>
 
-  	      <li>Innovation and quality product</li>
-  	      <li>Data analysis and economics</li>
+		<li>
+		  <a href="http://stackoverflow.com/users/1835499/dpzaba" target="_blank">
+		    <i class="icon-stackexchange icon-4x"></i>
+		    <p>Stackoverflow</p>
+		  </a>
+		</li>
+
+		<li>
+		  <a href="https://bugzilla.mozilla.org/buglist.cgi?emailreporter1=1&emailtype1=exact&query_format=advanced&email1=dpzaba%40gmail.com%20" target="_blank">
+		    <i class="icon-bug icon-4x"></i>
+		    <p>Bugzilla Mozilla</p>
+		  </a>
+		</li>
+
+		<li>
+		  <a href="http://projects.dpzaba.com" target="_blank">
+		    <i class="icon-beaker icon-4x"></i>
+		    <p>Projects</p>
+		  </a>
+		</li>
+	      </ul>
+	    </div>
+	  </div>
+	  
+	</div>
+
+
+	<footer>
+	  <div class="row">
+	    <div class="span8 offset2">
+	      <a href="http://www.dpzaba.com">David Antonio Pérez Zaba</a>,
+	      using: HTML5, Js, Bootstrap and <i class="icon-linux"></i> 
 	      
-	      <li><strong>Things well done</strong>, friends and music</li>
-  	    </ul>
-  	  </div>
-  	</div>
-
-  	
-      <div class="span4">
-      	  <div class="well">
-      	    <h2>Projects and collaborations</h2>
-      	    <ul>
-                <li>
-                    <a href="http://projects.dpzaba.com" target="_blank">Check out my repository</a>
-                </li>        
-                <li>
-                    <a href="http://yakito.yakiboo.net" target="_blank">YakiTo</a>
-                </li>  
-                <li>
-                    <a href="http://es.linkedin.com/in/dpzaba" target="_blank">Mozilla Contributor</a>
-                </li>
-            </ul>
-      	  </div>
+	      <small>
+		<a href="http://www.dpzaba.com">www.dpzaba.com</a>
+	      </small>
+	    </div>
+	  </div>
+	</footer>
       </div>
 
-      </div>
-
-
-    <footer>
-      	<div class="row">
-          	<div class="span8 offset2">
-          	  <a href="http://www.dpzaba.com">David Antonio Pérez Zaba</a>,
-          	  using: HTML5, JS, Bootstrap. 
-                
-          	  <small>
-          	    <a href="http://www.dpzaba.com">www.dpzaba.com</a>
-          	  </small>
-          	</div>
-        </div>
-    </footer>
-   </div>
-
-
-    <script type="text/javascript">my_email()</script> 
-    <script src="index_files/jquery.js"></script>
-    <script src="index_files/bootstrap-collapse.js"></script>
-    <script src="index_files/my_hated_analytics.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/my_hated_analytics.js"></script>
     <!-- Yes, I know i have to refactor this code, sorry -->
-
        
   </body>  
 </html>

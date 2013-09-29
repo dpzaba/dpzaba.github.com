@@ -1,0 +1,68 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#david {
+    float: left;
+    margin-right: 20px;
+    font-size: 1.7em;
+    color: #fff;
+    letter-spacing: -0.2px;
+    padding-top: 10px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+#myCanvas{
+    border:0px solid #c3c3c3;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.me{
+    float:right; 
+    margin-left:100px;
+    margin-bottom:20px;
+    margin-top:-20px;
+}
+
+ul.icons-inline > li, ol.icons-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.icons-inline a {
+    color: black;
+}
+
+.icons-inline a:hover {
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    margin-top: 25px;
+    padding-top: 5px;
+    color: #999;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #555;
+}
+
+footer small{
+    float:right;
+}
+
+
+footer a:hover { 
+    color: #222;
+}
