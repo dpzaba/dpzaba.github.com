@@ -27,4 +27,10 @@ function start(){
     my_photo();
 }
 
-window.onload=start;
+if (window.addEventListener){
+    window.addEventListener("load", start, false);
+} else if (window.attachEvent){
+    window.attachEvent("onload", start);
+} else {
+    window.onload=start;
+}
