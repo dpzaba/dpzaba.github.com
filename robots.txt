@@ -4,3 +4,4 @@ Disallow: /img/
 Disallow: /css/
 Disallow: /js/
 Disallow: /font/
+Disallow: /googleec805b5b22834d8a.html
