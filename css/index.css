@@ -21,6 +21,10 @@ body {
     margin-right: auto;
 }
 
+.title-color {
+  color: gold;
+}
+
 .me{
     float:right; 
     margin-left:100px;
@@ -66,3 +70,4 @@ footer small{
 footer a:hover { 
     color: #222;
 }
+
